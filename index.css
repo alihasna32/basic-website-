@@ -1,3 +1,4 @@
+/* welcomeing website */
 #h1{
     text-align: center;
     color: rgb(69, 52, 228);
@@ -31,8 +32,9 @@
     
 }
 
+/* login part */
 .container{
-    background-color: rgb(2, 106, 224);
+    background-color: rgb(58, 181, 212);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);
@@ -74,3 +76,38 @@
 }
 
 
+/* website heading*/
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 80px;
+    
+}
+
+nav li:hover{
+    background-color: rgba(113, 120, 212, 0.356);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* website footer */
+footer{
+    text-align: center;
+}
+
+/* website table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #1d1d29;
+    padding: 8px;
+    text-align: center;
+}       
