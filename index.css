@@ -111,3 +111,25 @@ th, td {
     padding: 8px;
     text-align: center;
 }       
+
+/* css flex */
+.container2{
+    display: flex;
+    
+}
+.container2 div{
+    border: 1px solid #030202;
+    height: 50px;
+    font-size: 2em;
+    width: 200px;
+}
+.box-container{
+    
+}
+
+.box{
+    font-size: 2em;
+    height: 60px;
+    width: 80px;
+    border: 1px solid #030202;
+}
